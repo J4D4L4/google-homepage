@@ -1,0 +1,122 @@
+
+
+.inputField {
+
+background: #fff;
+display: flex;
+border-radius: 2px;
+border: none;
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+z-index: 3;
+height: 44px;
+margin: 0 auto;
+width: 484px;
+}
+
+.innerInput{
+
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    
+
+}
+
+.topImage{
+    padding-top: 109px;
+
+}
+
+.searchArea{
+    position: relative;
+    text-align: left;
+    margin-top: -1px;
+    z-index: 1;
+    cursor: default;
+
+}
+.insideSearchArea{
+    padding-top: 18px;
+
+    top: 53px;
+
+    z-index: 0;
+}
+
+
+.button{
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+
+
+
+input[type="submit"]{
+    height: 36px;
+    line-height: 27px;
+    font: 400 11px system-ui;
+    font-size: small;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+.uebersetzer{
+
+     display: inline-block;
+     line-height: 28px;
+
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+.ueberText{
+    position: relative;
+}
