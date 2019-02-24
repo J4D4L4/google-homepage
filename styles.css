@@ -120,3 +120,35 @@ center {
 .ueberText{
     position: relative;
 }
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+  }
+.areaRight{
+    min-width: 255px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    z-index: 986;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-user-select: none;
+    float: right;
+    
+}
+.areaLeft{
+    float: left;
+}
